@@ -63,7 +63,7 @@
 
       <!-- Description with Animated Border -->
       <div class="description-container">
-        <div class="description-border"></div>
+        <!-- <div class="description-border"></div> -->
         <p>
           We specialize in driving positive change through expert research, strategic
           communication, and tailored solutions. We empower organizations to reach their full

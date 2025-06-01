@@ -1,4 +1,4 @@
-import { defineNuxtConfig } from 'nuxt/config'
+import { defineNuxtConfig } from "nuxt/config";
 
 export default defineNuxtConfig({
   // Force disable SSR since your original config had it as false
@@ -14,66 +14,86 @@ export default defineNuxtConfig({
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
         { name: "format-detection", content: "telephone=no" },
-        { name: "description", content: "OLGNova - Health research publications and resources for healthcare professionals in Africa" },
-        { name: "keywords", content: "health research, publications, Africa, healthcare, medical research" },
+        {
+          name: "description",
+          content:
+            "OLGNova - Health research publications and resources for healthcare professionals in Africa",
+        },
+        {
+          name: "keywords",
+          content:
+            "health research, publications, Africa, healthcare, medical research",
+        },
         { name: "author", content: "OLGNova" },
         { property: "og:title", content: "OLGNova" },
-        { property: "og:description", content: "Health research publications and resources for healthcare professionals in Africa" },
+        {
+          property: "og:description",
+          content:
+            "Health research publications and resources for healthcare professionals in Africa",
+        },
         { property: "og:type", content: "website" },
         { property: "og:url", content: "https://olgnova.com" },
-        { property: "og:image", content: "https://olgnova.com/og-image.jpg" },
+        { property: "og:image", content: "https://olgnova.com/icon.jpg" },
+
         { name: "twitter:card", content: "summary_large_image" },
-        { name: "twitter:title", content: "Oova" },
-        { name: "twitter:description", content: "Health research publications and resources for healthcare professionals in Africa" },
-        { name: "twitter:image", content: "https://olgnova.com/twitter-image.jpg" },
+        { property: "twitter:url", content: "https://olgnova.com" },
+        { name: "twitter:title", content: "olgnova" },
+        {
+          name: "twitter:description",
+          content:
+            "Health research publications and resources for healthcare professionals in Africa",
+        },
+        {
+          name: "twitter:image",
+          content: "https://olgnova.com/icon.jpg",
+        },
       ],
       link: [
-        { rel: "icon", type: "image/x-icon", href: "/favicon.svg" },
+        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
         { rel: "canonical", href: "https://olgova.com" },
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100..900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap'
+        }
       ],
     },
-    pageTransition: { 
-      name: 'page', 
-      mode: 'out-in'
-    }
+    pageTransition: {
+      name: "page",
+      mode: "out-in",
+    },
   },
-  
+
   build: {
-    transpile: ['lucide-vue-next']
+    transpile: ["lucide-vue-next"],
   },
-  
+
   // Remove problematic modules and keep only essential ones
-  modules: [
-    "@nuxtjs/tailwindcss",
-    "@vueuse/nuxt",
-  ],
-  
+  modules: ["@nuxtjs/tailwindcss", "@vueuse/nuxt"],
+
   css: ["/assets/css/main.css"],
 
   tailwindcss: {
     cssPath: "@/assets/css/main.css",
   },
-  
-  transpile: [
-    '@vueuse/motion'
-  ],
+
+  transpile: ["@vueuse/motion"],
 
   axios: {
     timeout: 10000,
   },
-  
+
   // Set public runtime config
   runtimeConfig: {
     public: {
-      siteUrl: 'https://OLGNova.com',
-    }
+      siteUrl: "https://OLGNova.com",
+    },
   },
 
   // Disable prerendering to avoid the SSR errors
   nitro: {
     prerender: {
-      enabled: false
-    }
+      enabled: false,
+    },
   },
 
   compatibilityDate: "2025-02-01",

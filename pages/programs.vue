@@ -144,7 +144,7 @@
               </div>
               
               <div class="mt-8 flex flex-wrap gap-4">
-                <a :href="program.applicationLink" target="_blank" class="btn-primary group">
+                <a :href="program?.applicationLink" target="_blank" class="btn-primary group">
                   <span>Apply Now</span>
                   <ArrowRight class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </a>
@@ -187,12 +187,12 @@
           <div class="relative z-10">
             <span class="coming-soon-badge">Coming Soon</span>
             <h3 class="coming-soon-title">More Programs on the Horizon</h3>
-            <p class="coming-soon-description">
+            <p class="text-gray-800 leading-loose max-w-xl">
               We're developing additional programs to expand our offerings and create more opportunities for talented individuals. Sign up to be notified when new programs are announced.
             </p>
             
             <!-- Email Subscription Form -->
-            <form @submit.prevent="subscribeToUpdates" class="mt-10 max-w-md mx-auto">
+            <form @submit.prevent="subscribeToUpdates" class="mt-10 max-w-md">
               <div class="flex flex-col sm:flex-row gap-3">
                 <div class="flex-grow">
                   <input 
@@ -273,7 +273,7 @@
             Take the first step towards enhancing your skills and making a meaningful impact through our specialized programs.
           </p>
           <div class="flex flex-wrap gap-6 justify-center">
-            <a :href="Program.applicationLink" target="_blank" class="btn-white group">
+            <a :href="Program?.applicationLink" target="_blank" class="btn-white group">
               <span>Apply Now</span>
               <ArrowRight class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
             </a>
@@ -345,7 +345,7 @@
                 </div>
                 
                 <div class="mt-8 flex justify-center">
-                  <a :href="activeProgramDetails.applicationLink" target="_blank" class="btn-primary-dark group">
+                  <a :href="activeProgramDetails?.applicationLink" target="_blank" class="btn-primary-dark group">
                     <span>Apply for this Program</span>
                     <ArrowRight class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                   </a>
