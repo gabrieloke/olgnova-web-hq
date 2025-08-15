@@ -482,7 +482,7 @@
     await subscribe(payloadObj)
     
     // Show success message
-    // alert(`Thank you for subscribing with ${newsletterEmail.value}! A confirmation has been sent to olgnovateam@gmail.com.`);
+    // alert(`Thank you for subscribing with ${newsletterEmail.value}! A confirmation has been sent to info@olgnova.com.`);
     
     // Reset form
     newsletterEmail.value = '';

@@ -108,7 +108,7 @@
                 Our team is ready to clarify any aspects of our terms of service.
               </p>
               <a 
-                href="mailto:olgnovateam@gmail.com" 
+                href="mailto:info@olgnova.com" 
                 class="inline-flex items-center px-6 py-3 bg-olg-blue text-white font-medium rounded-lg transition-all duration-300 hover:bg-olg-blue-dark shadow-md hover:shadow-lg"
               >
                 <mail-icon class="h-5 w-5 mr-2" />

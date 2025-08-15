@@ -633,7 +633,7 @@
                   </svg>
                 </div>
                 <dt class="mt-4 font-semibold text-white">Email us</dt>
-                <dd class="mt-2 leading-7 text-white/80">info@OLGNova.com</dd>
+                <dd class="mt-2 leading-7 text-white/80">info@olgnova.com</dd>
               </div>
               <div class="flex flex-col items-start">
                 <div class="rounded-md bg-white/10 p-2 ring-1 ring-white/20">
@@ -702,7 +702,7 @@ const subscribeToNewsletter = async () => {
     await subscribe(payloadObj)
     
     // Show success message
-    // alert(`Thank you for subscribing with ${newsletterEmail.value}! A confirmation has been sent to olgnovateam@gmail.com.`);
+    // alert(`Thank you for subscribing with ${newsletterEmail.value}! A confirmation has been sent to info@olgnova.com.`);
     
     // Reset form
     newsletterEmail.value = '';

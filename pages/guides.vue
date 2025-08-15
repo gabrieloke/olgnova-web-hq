@@ -266,7 +266,7 @@
                 Let's begin the conversation about how OLGNova can support your organization's goals.
               </p>
               <a 
-                href="mailto:olgnovateam@gmail.com" 
+                href="mailto:info@olgnova.com" 
                 class="inline-flex items-center px-6 py-3 bg-olg-blue text-white font-medium rounded-lg transition-all duration-300 hover:bg-olg-blue-dark shadow hover:shadow-lg transform hover:scale-105"
               >
                 <mail-icon class="h-5 w-5 mr-2" />

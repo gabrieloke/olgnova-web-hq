@@ -86,7 +86,7 @@
           </p>
           <div class="flex flex-col sm:flex-row justify-center gap-4">
             <a 
-              href="mailto:olgnovateam@gmail.com" 
+              href="mailto:info@olgnova.com" 
               class="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg"
             >
               <mail-icon class="h-5 w-5 mr-2" />
@@ -168,7 +168,7 @@
       question: "Can OLGNova help determine if my research is suitable for publication or conferences?",
       answer: `
         <p>Yes! If you have completed research and are unsure about its readiness for publication or presentation at a scientific conference, we can review it and provide expert feedback.</p>
-        <p>Reach out to us through our contact form or email us directly at <a href="mailto:olgnovateam@gmail.com" class="text-blue-600 dark:text-cream-400 hover:underline">olgnovateam@gmail.com</a>.</p>
+        <p>Reach out to us through our contact form or email us directly at <a href="mailto:info@olgnova.com" class="text-blue-600 dark:text-cream-400 hover:underline">info@olgnova.com</a>.</p>
       `
     },
     {
@@ -258,7 +258,7 @@
       answer: `
         <p>You can reach us by:</p>
         <ul>
-          <li>📧 Email: <a href="mailto:olgnovateam@gmail.com" class="text-blue-600 dark:text-cream-400 hover:underline">olgnovateam@gmail.com</a></li>
+          <li>📧 Email: <a href="mailto:info@olgnova.com" class="text-blue-600 dark:text-cream-400 hover:underline">info@olgnova.com</a></li>
           <li>📞 Phone: +250 788 249 545 | +44 7551 289858</li>
           <li>📬 Or fill out our online contact form — we're here to help!</li>
         </ul>

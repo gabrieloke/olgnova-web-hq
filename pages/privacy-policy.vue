@@ -80,7 +80,7 @@
                   <p>
                     You have full control over your personal data. You may request access to your information, ask for corrections, 
                     or request that your data be deleted by contacting us at 
-                    <a href="mailto:olgnovateam@gmail.com">olgnovateam@gmail.com</a>.
+                    <a href="mailto:info@olgnova.com">info@olgnova.com</a>.
                   </p>
                 </div>
                 
@@ -154,7 +154,7 @@
               Have questions about our privacy practices?
             </p>
             <a 
-              href="mailto:olgnovateam@gmail.com" 
+              href="mailto:info@olgnova.com" 
               class="inline-flex items-center px-6 py-3 bg-olg-blue text-white font-medium rounded-lg transition-all duration-300 hover:bg-olg-blue-dark shadow hover:shadow-lg"
             >
               <mail-icon class="h-5 w-5 mr-2" />
