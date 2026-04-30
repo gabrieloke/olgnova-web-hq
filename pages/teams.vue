@@ -170,7 +170,7 @@ import obadiah from "@/assets/img/obadiah.png"
 import sherifat from "@/assets/img/sherifat.png"
 import leonard from "@/assets/img/leonard.png"
 import melody from "@/assets/img/melody.png"
-import femi from "@/assets/img/femi.png"
+import femi from "@/assets/img/femi.jpg"
 import { 
   Search as SearchIcon, 
   ChevronDown as ChevronDownIcon, 
