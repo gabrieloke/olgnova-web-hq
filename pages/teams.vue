@@ -1246,9 +1246,7 @@ const teamMembers = ref<TeamMember[]>([
 `,
   "methods": [],
   "publications": []
-}
-
-]
+},
 {
     id: "femi-akinbo",
     name: "Femi Akinbo",
@@ -1262,7 +1260,8 @@ const teamMembers = ref<TeamMember[]>([
     bio: `Femi Akinbo is a multidisciplinary professional with expertise in research, partnerships, stakeholder engagement, and business development, focused on enabling organizations to achieve meaningful and sustainable impact. As Partnership and Engagement Officer at OLGNova Limited, he leads strategic collaborations, strengthens stakeholder relationships, and supports initiatives that drive development-focused outcomes.<br><br>He also serves as Managing Partner at Rendrn, where he drives business development, partnerships, and growth, working with creative teams to deliver compelling media and storytelling solutions that amplify organizational impact. Previously, he worked as a Research Analyst at Halcrow Infrastructure, contributing to research synthesis, proposal development, and high-level stakeholder engagement across infrastructure and public sector projects.<br><br>With a background in Human Anatomy and biomedical research, Femi brings a strong analytical and evidence-based approach to advancing innovative, high-impact solutions across sectors.`,
     methods: [],
     publications: []
-  });
+ }
+]);
 
 const searchQuery = ref('');
 const expandedMembers = ref<string[]>([]);
